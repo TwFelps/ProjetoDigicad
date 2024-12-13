@@ -9,13 +9,13 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body>
-    <header class="border border-2 shadow-sm py-4">
+<body class="bg-light">
+    <header class="bg-dark text-white py-4">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
                 <!-- Logo -->
                 <div class="logo">
-                    <img src="https://placehold.co/100x75" alt="Logo Pizzaria" class="img-fluid">
+                    <img src="./img/LogoPizza.png" alt="Logo Pizzaria" class="img-fluid" style="max-height: 100px; object-fit: cover;">
                 </div>
                 <!-- Menu -->
                 <nav class="navbar navbar-expand-lg">
@@ -25,17 +25,17 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-iem">
-                                <a href="#" class="nav-link ">Pedir Pizza</a>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white">Pedir Pizza</a>
                             </li>
-                            <li class="nav-iem">
-                                <a href="#" class="nav-link ">Cardápio</a>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white">Cardápio</a>
                             </li>
-                            <li class="nav-iem">
-                                <a href="#" class="nav-link ">Acompanhar Pedido</a>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white">Acompanhar Pedido</a>
                             </li>
-                            <li class="nav-iem">
-                                <a href="#" class="nav-link ">Login/Cadastro</a>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white">Login/Cadastro</a>
                             </li>
                         </ul>
                     </div>
@@ -46,74 +46,74 @@
 
     <main class="container my-5">
         <!-- Banner -->
-         <section class="mb-4 p-4 border rounded shadow-sm d-flex align-items-center">
+        <section class="mb-4 p-4 border rounded bg-light d-flex align-items-center shadow-lg">
             <div class="text-content me-4">
                 <h2 class="mb-3">Promoção</h2>
                 <p class="lead">Ganhe refrigerante grátis ao pedir uma pizza Grande (1.5l) ou Família (2l)</p>
-                <button class="btn btn-primary">Acessar Promoção</button>
+                <button class="btn btn-dark">Acessar Promoção</button>
             </div>
             <div class="image-content flex-grow-1">
-                <img src="https://placehold.co/500x200" alt="Cartaz promocional de refrigerante grátis" class="img-fluid w-100 h-100 rounded shadow-sm">
+                <img src="./img/RefrigeranteBanner.png" alt="Cartaz promocional de refrigerante grátis" class="img-fluid w-100 h-100 rounded shadow-sm" style="max-height: 300px; object-fit: cover;">
             </div>
         </section>
+
         <!-- Card Pizzas -->
-         <section>
-            <h3 class="text-center mb-4">Escolha o tamanho da sua pizza</h3>
-            <!-- Pequena -->
-            <div class="row row-cols-1 row-cols-md-4 g4">
+        <section>
+            <h3 class="text-center mb-4 text-dark">Escolha o tamanho da sua pizza</h3>
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <!-- Pequena -->
                 <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="https://placehold.co/300x200" alt="Pizza Pequena" class="card-img-top">
+                    <div class="card h-100 shadow-lg border-0">
+                        <img src="./img/PizzaPequena.png" alt="Pizza Pequena" class="card-img-top" style="max-height: 203px; object-fit: cover;">
                         <div class="card-body text-center">
-                            <h5 class="card-title">Pequena</h5>
+                            <h5 class="card-title text-dark">Pequena</h5>
                             <p class="card-text">Serve até 2 pessoas</p>
                         </div>
                     </div>
                 </div>
-             <!-- Média -->
+                <!-- Média -->
                 <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="https://placehold.co/300x200" alt="Pizza Média" class="card-img-top">
+                    <div class="card h-100 shadow-lg border-0">
+                        <img src="./img/PizzaMedia.jpeg" alt="Pizza Média" class="card-img-top" style="max-height: 203px; object-fit: cover;">
                         <div class="card-body text-center">
-                            <h5 class="card-title">Média</h5>
+                            <h5 class="card-title text-dark">Média</h5>
                             <p class="card-text">Serve até 4 pessoas</p>
                         </div>
                     </div>
                 </div>
-            <!-- Grande -->
+                <!-- Grande -->
                 <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="https://placehold.co/300x200" alt="Pizza Grande" class="card-img-top">
+                    <div class="card h-100 shadow-lg border-0">
+                        <img src="./img/PizzaGrande.jpg" alt="Pizza Grande" class="card-img-top" style="max-height: 203px; object-fit: cover;">
                         <div class="card-body text-center">
-                            <h3 class="card-tittle">Grande</h3>
+                            <h5 class="card-title text-dark">Grande</h5>
                             <p class="card-text">Serve até 6 Pessoas</p>
                         </div>
                     </div>
                 </div>
-            <!-- Família -->
+                <!-- Família -->
                 <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="https://placehold.co/300x200" alt="Pizza Família" class="card-img-top">
+                    <div class="card h-100 shadow-lg border-0">
+                        <img src="./img/PizzaFamilia.jpg" alt="Pizza Família" class="card-img-top" style="max-height: 203px; object-fit: cover;">
                         <div class="card-body text-center">
-                            <h3 class="card-tittle">Família</h3>
+                            <h5 class="card-title text-dark">Família</h5>
                             <p class="card-text">Serve até 8 Pessoas</p>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-         </section>
+        </section>
     </main>
 
-    <footer class="bg-dark text-white py-4 mt-5 d-flex flex-column">
+    <footer class="bg-dark text-white py-4 mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex justify-content-start mb-3">
                     <ul class="list-unstyled d-flex">
-                        <li class="me-4"><a href="#"></a>Fale conosco</li>
-                        <li class="me-4"><a href="#"></a>Sobre a Pizza</li>
-                        <li class="me-4"><a href="#"></a>Política de Privacidade</li>
-                        <li><a href="#"></a>Termos e Condições</li>
+                        <li class="me-4"><a href="#" class="text-white">Fale conosco</a></li>
+                        <li class="me-4"><a href="#" class="text-white">Sobre a Pizza</a></li>
+                        <li class="me-4"><a href="#" class="text-white">Política de Privacidade</a></li>
+                        <li><a href="#" class="text-white">Termos e Condições</a></li>
                     </ul>
                 </div>
             </div>
@@ -124,7 +124,7 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
